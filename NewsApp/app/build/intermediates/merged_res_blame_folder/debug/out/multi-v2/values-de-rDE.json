@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\TMP\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de-rDE\\values-de-rDE.xml",
+            "map": [
+                {
+                    "source": "E:\\TMP\\NewsApp\\app\\src\\main\\res\\values-de-rDE\\strings.xml",
+                    "from": {
+                        "startLines": "2,11,9,8,7,6,5,4,13,3,12,10,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,522,433,369,314,256,206,146,663,101,568,488,727",
+                        "endColumns": "45,45,54,63,54,57,49,59,63,44,94,33,64",
+                        "endOffsets": "96,563,483,428,364,309,251,201,722,141,658,517,787"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,147,202,266,321,379,429,489,553,598,693,727",
+                        "endColumns": "45,45,54,63,54,57,49,59,63,44,94,33,64",
+                        "endOffsets": "96,142,197,261,316,374,424,484,548,593,688,722,787"
+                    }
+                }
+            ]
+        }
+    ]
+}

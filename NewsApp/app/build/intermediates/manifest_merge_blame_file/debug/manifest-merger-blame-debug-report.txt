@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.project.newsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml
+10
+11    <!-- Permission to access the internet -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:7:5-67
+12-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:9:5-34:19
+15        android:allowBackup="true"
+15-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\628cf4aa50743634ca34b73cf7f2546d\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher_foreground"
+18-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:11:9-54
+19        android:label="@string/app_name"
+19-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:12:9-41
+20        android:largeHeap="true"
+20-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:13:9-33
+21        android:roundIcon="@mipmap/ic_launcher_foreground"
+21-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:14:9-59
+22        android:supportsRtl="true"
+22-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:16:9-40
+25        android:usesCleartextTraffic="true" >
+25-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:17:9-44
+26
+27        <!-- Main Activity, the entry point of the app -->
+28        <activity android:name="com.project.newsapp.activities.MainActivity" >
+28-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:21:9-26:20
+28-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:21:19-58
+29            <intent-filter>
+29-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:22:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:23:17-69
+30-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:24:17-77
+32-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <!-- Signup Activity -->
+37        <activity android:name="com.project.newsapp.activities.Login" />
+37-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:29:9-54
+37-->E:\TMP\NewsApp\app\src\main\AndroidManifest.xml:29:19-51
+38
+39        <!-- Login Activity -->
+40        <!-- <activity android:name=".activities.MainActivity" /> -->
+41
+42        <meta-data
+42-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\179a43707ad36dac0d1300ae55e51aa3\jetified-okhttp3-integration-4.11.0\AndroidManifest.xml:11:9-13:43
+43            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+43-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\179a43707ad36dac0d1300ae55e51aa3\jetified-okhttp3-integration-4.11.0\AndroidManifest.xml:12:13-84
+44            android:value="GlideModule" />
+44-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\179a43707ad36dac0d1300ae55e51aa3\jetified-okhttp3-integration-4.11.0\AndroidManifest.xml:13:13-40
+45
+46        <provider
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\55c8bb58227ed650f44c4a43b2f78f75\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\55c8bb58227ed650f44c4a43b2f78f75\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+48            android:authorities="com.project.newsapp.lifecycle-process"
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\55c8bb58227ed650f44c4a43b2f78f75\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+49            android:exported="false"
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\55c8bb58227ed650f44c4a43b2f78f75\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+50            android:multiprocess="true" />
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\55c8bb58227ed650f44c4a43b2f78f75\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+51    </application>
+52
+53</manifest>

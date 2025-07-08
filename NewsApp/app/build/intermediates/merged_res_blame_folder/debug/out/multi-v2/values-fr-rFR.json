@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\TMP\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rFR\\values-fr-rFR.xml",
+            "map": [
+                {
+                    "source": "E:\\TMP\\NewsApp\\app\\src\\main\\res\\values-fr-rFR\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,5,6,7,8,9,10,13,11,12,4,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,185,240,306,356,409,464,659,527,570,144,727",
+                        "endColumns": "45,42,54,65,49,52,54,62,67,42,88,40,70",
+                        "endOffsets": "96,139,235,301,351,404,459,522,722,565,654,180,793"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,144,199,265,315,368,423,486,554,597,686,727",
+                        "endColumns": "45,42,54,65,49,52,54,62,67,42,88,40,70",
+                        "endOffsets": "96,139,194,260,310,363,418,481,549,592,681,722,793"
+                    }
+                }
+            ]
+        }
+    ]
+}

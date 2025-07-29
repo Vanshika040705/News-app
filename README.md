@@ -102,3 +102,12 @@ Screenshots
 
 License
 This project is open source under the MIT License.
+
+👥 Authors
+D.T.Vanshika – Backend Developer
+
+Anna Aishwarya – Frontend Developer
+
+Shreya Jayarajan – API Integration
+
+Namitha Chishor – UI/UX Designer

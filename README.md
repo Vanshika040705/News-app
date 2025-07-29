@@ -44,66 +44,10 @@ Edit
 
 ---
 
-## 🛠️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/news-app.git
-cd news-app
-2. Set Up Flask Environment
-bash
-Copy
-Edit
-cd NewsApp
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On Linux/Mac:
-source venv/bin/activate
-3. Install Python Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Compile Java Code (if required)
-Make sure you have Java installed. Compile any Java files if needed:
-
-bash
-Copy
-Edit
-javac newslogic.java
-5. Run the Application
-bash
-Copy
-Edit
-python app.py
-Go to http://localhost:5000 in your browser.
-
-Customization
-You can customize news content by editing the categories or preferences in:
-
-newslogic.java (logic layer)
-
-app.py (for routing/API handling)
-
-Templates to change category dropdowns or themes
-
-Future Improvements
-Add user login and authentication
-
-Save user preferences persistently
-
-Add light/dark mode toggle
-Add multi-language support
-
-Screenshots
-(Include UI screenshots here)
-
-License
+## License
 This project is open source under the MIT License.
 
-👥 Authors
+## 👥 Authors
 D.T.Vanshika – Backend Developer
 
 Anna Aishwarya – Frontend Developer
@@ -111,3 +55,5 @@ Anna Aishwarya – Frontend Developer
 Shreya Jayarajan – API Integration
 
 Namitha Chishor – UI/UX Designer
+
+
